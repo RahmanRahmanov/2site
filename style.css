@@ -1,0 +1,315 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+}
+.full_start {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 765px;
+  background-image: url(sourc/programist.png);
+  padding-top: 33px;
+}
+.nav_block {
+  display: flex;
+  width: 1150px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.nav_button {
+  gap: 61px;
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.nav_button:hover {
+  color: rgb(27, 255, 7);
+}
+.container2 {
+  margin: 0 auto;
+  max-width: 1150px;
+}
+.aboutme {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 430px;
+  top: 334px;
+}
+.h1 {
+  position: absolute;
+  color: rgb(27, 255, 7);
+  font-family: IBM Plex Mono;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: -3px;
+  width: 919px;
+  top: 466px;
+}
+.h2 {
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 72px;
+  margin-bottom: 40px;
+  letter-spacing: -2px;
+}
+.section_black {
+  background: rgb(0, 0, 0);
+  width: 100%;
+  padding: 1px;
+  padding-top: 150px;
+}
+.Realhome {
+  background-image: url(sourc/realhome.png);
+  position: relative;
+  width: 1150px;
+  height: 550px;
+}
+.GLASS {
+  background-image: url(sourc/glass.png);
+  position: relative;
+  width: 1150px;
+  height: 550px;
+}
+.Fesiyen {
+  background-image: url(sourc/fesiyen.png);
+  position: relative;
+  width: 1150px;
+  height: 550px;
+}
+.projects_name {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: -3px;
+  top: 410px;
+  left: 50px;
+  letter-spacing: -2px;
+}
+.projects_text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: -3px;
+  top: 461px;
+  left: 50px;
+  letter-spacing: -2px;
+}
+.button_projects {
+  margin-top: 80px;
+  width: 582px;
+  height: 153px;
+  border-radius: 10px;
+  background: rgb(27, 255, 7);
+  color: rgb(0, 0, 0);
+  font-family: IBM Plex Mono;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: -1px;
+}
+.button_projects:hover {
+  color: rgb(27, 255, 7);
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(27, 255, 7);
+}
+.my_competition {
+  margin-top: 150px;
+}
+.HTML::before {
+  content: "";
+  background-image: url(sourc/html.png);
+  width: 45px;
+  height: 44px;
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 48px;
+}
+.js::before {
+  content: "";
+  background-image: url(sourc/js.png);
+  width: 45px;
+  height: 44px;
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 60px;
+}
+.bibl::before {
+  content: "";
+  background-image: url(sourc/bibl.png);
+  width: 45px;
+  height: 44px;
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 60px;
+}
+.mobile::before {
+  content: "";
+  background-image: url(sourc/mobile.png);
+  width: 45px;
+  height: 44px;
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 60px;
+}
+.my_competition_name {
+  color: rgb(27, 255, 7);
+  font-family: IBM Plex Mono;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46px;
+}
+.my_competition_text {
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  width: 778px;
+  height: 116px;
+}
+.from_me {
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46px;
+  width: 403px;
+  height: 92px;
+  letter-spacing: -3px;
+  margin-top: 150px;
+  margin-bottom: 74px;
+}
+.from_me_name {
+  padding-top: 40px;
+  padding-left: 40px;
+  color: rgb(27, 255, 7);
+  font-family: IBM Plex Mono;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+.from_me_text {
+  padding-left: 40px;
+  padding-top: 15px;
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -1px;
+  width: 749px;
+  height: 116px;
+}
+.about_me_box {
+  background: rgb(25, 28, 25);
+  border-radius: 30px;
+  width: 1150px;
+  height: 283px;
+  margin-bottom: 74px;
+}
+.last_full {
+  height: 717px;
+  background: rgb(25, 28, 25);
+  position: relative;
+  background-image: url(sourc/razrab.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  margin-bottom: 150px;
+}
+.info_me {
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1px;
+  position: absolute;
+  top: 300px;
+  left: 125px;
+}
+.last_info_text {
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1px;
+  position: absolute;
+  left: 125px;
+}
+.instagram {
+  top: 408px;
+}
+.telegram {
+  top: 490px;
+}
+.mail {
+  top: 580px;
+}
+.portfole {
+  position: relative;
+  height: 220px;
+  border-radius: 30px 30px 0px 0px;
+  background: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+}
+.rule {
+  position: absolute;
+  left: 125px;
+  top: 172px;
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -1px;
+  opacity: 0.5;
+}
+.sawa {
+  position: absolute;
+  top: 76px;
+  left: 125px;
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -1px;
+}
+.contacts_link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+.contacts_link:hover {
+  color: rgb(27, 255, 7);
+}
